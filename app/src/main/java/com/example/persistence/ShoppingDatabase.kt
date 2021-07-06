@@ -8,4 +8,5 @@ version = 1
     )
 
 abstract class ShoppingDatabase: RoomDatabase() {
+    abstract fun shoppingDataAccessObject(): shoppingDataAccessObject
 }

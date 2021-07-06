@@ -12,7 +12,7 @@ interface ShoppingDataAccessObject {
         fun addShoppingItem(shoppingItem: ShoppingModel)
 
 
-        @Query ("SELECT * from shoppingmodel")
+        @Query ("SELECT * from ShoppingModel")
         fun getAllShoppingItems(): List<ShoppingModel>
 
     @Delete
